@@ -142,4 +142,8 @@ body {
     align-items: center;
 }
 
-
+@media (width: 1920px) {
+    .popup-angle {
+        right: 16.3em;
+    } 
+}

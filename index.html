@@ -10,11 +10,11 @@
     <header class="header">
         <nav class="header_nav">
                 <div class="nav-position">
-                <a href="#" class="link">Mail</a>
-                <a href="#" class="link">Images</a>
+                <a tabindex="1" href="#" class="link">Mail</a>
+                <a tabindex="2" href="#" class="link">Images</a>
                 <div class="box-size">
                     <input type="checkbox" class="check-input" id="check">
-                    <label for="check" class="label-position"><span class="box-popup"></span></label>
+                    <label tabindex="3" for="check" class="label-position"><span class="box-popup"></span></label>
                     <div class="popup">
                         <div class="popup-angle"></div>
                         <div class="popup-content">
@@ -67,7 +67,7 @@
                                 <p class="popup-text">Documents</p>
                             </a>
                             <input type="checkbox" class="more" id="more">
-                            <label for="more" class="label-more"><span class="more-text">More</span></label>
+                            <label tabindex="4" for="more" class="label-more"><span class="more-text">More</span></label>
                             <div class="popup-items">
                                 <a href="#" class="popup-item">
                                     <img src="./img/chat.png" alt="chat" class="popup-img">
@@ -98,13 +98,14 @@
                         </div>
                     </div>
                 </div>
-                <label class="box-size">
+                <label tabindex="5" class="box-size">
                     <input type="checkbox" class="check-input">
                     <span class="box-bell"></span>
                 </label>
-                <img src="./img/favicon.png" alt="profile image" class="profile-img">
+                <img tabindex="6" src="./img/favicon.png" alt="profile image" class="profile-img">
             </div>
         </nav>
     </header>
 </body>
 </html>
+
